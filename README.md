@@ -3,7 +3,7 @@
 
 - build an application using the corneal gem called board_game_ranker
 - adjust gemfile active record version and config.ru active record migration
-- make two models (user, game)
+- make two models (user, game_blog)
 user: name(string)
 game_blog: name(string), img_url(string), rating(integer), description(text)
 
