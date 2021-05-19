@@ -15,10 +15,10 @@ game_blog: name(string), img_url(string), rating(integer), description(text)
 
 - make controller files for your models (make sure your application knows about your controllers)
 - make routes in game_controller for the following routes: 
-    - show all games 
-    - show an individual game 
-    - form for making a new game 
-    - creating a new game 
+    - show all game_blogs 
+    - show an individual game_blogs  
+    - form for making a new game_blogs  
+    - creating a new game_blogs 
 - make routes in user_controller for the following routes: 
     - show all users 
     - show an individual user
@@ -31,6 +31,4 @@ game_blog: name(string), img_url(string), rating(integer), description(text)
 - make a form for creating a new user 
 - make sure everything works correctly. 
 
-Bonus: have your user form be able to create new games (up to three) that are already associated to the user. 
-
-
+Bonus: have your user form be able to create new game_blogs (up to three) that are already associated to the user. 
